@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { SauceDemoUsers } from '/utils/test-data';
+import { SauceDemoUsers } from '../tests/utils/test-data';
 
 test('login with test data helper', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
